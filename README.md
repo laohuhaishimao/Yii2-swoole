@@ -93,6 +93,35 @@ private static $server_config = array(
     ]
 ```
 
+# 修改yii框架源码  
+修改 \vendor\yiisoft\yii2\web 目录下的Request.php中的getScriptUrl方法，如下
+```
+public function getScriptUrl()
+    {
+        if ($this->_scriptUrl === null) {
+            $this->_scriptUrl = '';
+            /*
+            $scriptFile = $this->getScriptFile();
+            $scriptName = basename($scriptFile);file_put_contents('1111.txt',$_SERVER['SCRIPT_NAME'].'--'.$scriptName);
+            if (isset($_SERVER['SCRIPT_NAME']) && basename($_SERVER['SCRIPT_NAME']) === $scriptName) {
+                $this->_scriptUrl = $_SERVER['SCRIPT_NAME'];
+            } elseif (isset($_SERVER['PHP_SELF']) && basename($_SERVER['PHP_SELF']) === $scriptName) {
+                $this->_scriptUrl = $_SERVER['PHP_SELF'];
+            } elseif (isset($_SERVER['ORIG_SCRIPT_NAME']) && basename($_SERVER['ORIG_SCRIPT_NAME']) === $scriptName) {
+                $this->_scriptUrl = $_SERVER['ORIG_SCRIPT_NAME'];
+            } elseif (isset($_SERVER['PHP_SELF']) && ($pos = strpos($_SERVER['PHP_SELF'], '/' . $scriptName)) !== false) {
+                $this->_scriptUrl = substr($_SERVER['SCRIPT_NAME'], 0, $pos) . '/' . $scriptName;
+            } elseif (!empty($_SERVER['DOCUMENT_ROOT']) && strpos($scriptFile, $_SERVER['DOCUMENT_ROOT']) === 0) {
+                $this->_scriptUrl = str_replace([$_SERVER['DOCUMENT_ROOT'], '\\'], ['', '/'], $scriptFile);
+            } else {
+                throw new InvalidConfigException('Unable to determine the entry script URL.');
+            }*/
+        }
+
+        return $this->_scriptUrl;
+    }
+```
+
 # 问题
 1. 为什么我获取不了post的参数
 因为post的数据被拦截了，请在控制器中申明并定义如下变量
@@ -126,31 +155,3 @@ define('YII_ROOT','/root/advanced');
 ```
 所有对资源文件的引用都是以 **ROOT_DIR** 为根目录进行的
 
-# 修改yii框架源码  
-修改 \vendor\yiisoft\yii2\web 目录下的Request.php中的getScriptUrl方法，如下
-```
-public function getScriptUrl()
-    {
-        if ($this->_scriptUrl === null) {
-            $this->_scriptUrl = '';
-            /*
-            $scriptFile = $this->getScriptFile();
-            $scriptName = basename($scriptFile);file_put_contents('1111.txt',$_SERVER['SCRIPT_NAME'].'--'.$scriptName);
-            if (isset($_SERVER['SCRIPT_NAME']) && basename($_SERVER['SCRIPT_NAME']) === $scriptName) {
-                $this->_scriptUrl = $_SERVER['SCRIPT_NAME'];
-            } elseif (isset($_SERVER['PHP_SELF']) && basename($_SERVER['PHP_SELF']) === $scriptName) {
-                $this->_scriptUrl = $_SERVER['PHP_SELF'];
-            } elseif (isset($_SERVER['ORIG_SCRIPT_NAME']) && basename($_SERVER['ORIG_SCRIPT_NAME']) === $scriptName) {
-                $this->_scriptUrl = $_SERVER['ORIG_SCRIPT_NAME'];
-            } elseif (isset($_SERVER['PHP_SELF']) && ($pos = strpos($_SERVER['PHP_SELF'], '/' . $scriptName)) !== false) {
-                $this->_scriptUrl = substr($_SERVER['SCRIPT_NAME'], 0, $pos) . '/' . $scriptName;
-            } elseif (!empty($_SERVER['DOCUMENT_ROOT']) && strpos($scriptFile, $_SERVER['DOCUMENT_ROOT']) === 0) {
-                $this->_scriptUrl = str_replace([$_SERVER['DOCUMENT_ROOT'], '\\'], ['', '/'], $scriptFile);
-            } else {
-                throw new InvalidConfigException('Unable to determine the entry script URL.');
-            }*/
-        }
-
-        return $this->_scriptUrl;
-    }
-```
