@@ -1,0 +1,20 @@
+[2018-07-11 16:19:28 *9823.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-11 16:19:28 $9821.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-11 17:06:48 *10403.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setSwRequest() on null in /root/advanced/frontend/YiiWebSocket.php:201
+Stack trace:
+#0 /root/advanced/frontend/YiiWebSocket.php(116): YiiWebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/frontend/YiiWebSocket.php on line 201.
+[2018-07-11 17:06:48 $10401.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-11 17:08:42 *10464.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setSwRequest() on null in /root/advanced/frontend/YiiWebSocket.php:200
+Stack trace:
+#0 /root/advanced/frontend/YiiWebSocket.php(116): YiiWebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/frontend/YiiWebSocket.php on line 200.
+[2018-07-11 17:08:42 $10462.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-11 17:12:24 *10598.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setSwRequest() on null in /root/advanced/frontend/YiiWebSocket.php:200
+Stack trace:
+#0 /root/advanced/frontend/YiiWebSocket.php(118): YiiWebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/frontend/YiiWebSocket.php on line 200.
+[2018-07-11 17:12:24 $10596.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0

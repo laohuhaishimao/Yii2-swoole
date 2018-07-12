@@ -1,0 +1,20 @@
+[2018-07-11 14:56:11 *7971.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/backend/web/frontend/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/frontend/web/YiiWebSocket.php:136
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 136, Array)
+#1 /root/advanced/frontend/web/YiiWebSocket.php(136): file_get_contents('/root/advanced/...')
+#2 /root/a
+[2018-07-11 14:56:11 $7969.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-11 14:56:31 *7972.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/backend/web/frontend/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/frontend/web/YiiWebSocket.php:136
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 136, Array)
+#1 /root/advanced/frontend/web/YiiWebSocket.php(136): file_get_contents('/root/advanced/...')
+#2 /root/a
+[2018-07-11 14:56:31 $7969.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-11 14:59:50 *8066.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/backend/backend/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/frontend/web/YiiWebSocket.php:136
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 136, Array)
+#1 /root/advanced/frontend/web/YiiWebSocket.php(136): file_get_contents('/root/backend/b...')
+#2 /root/advanced/fronte
+[2018-07-11 14:59:51 $8064.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-11 15:11:37 *8312.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class backend\controllers\UserController, because the name is already in use in /root/advanced/frontend/controllers/UserController.php on line 130.
+[2018-07-11 15:11:38 $8310.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0

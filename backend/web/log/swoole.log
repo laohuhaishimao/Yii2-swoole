@@ -1,0 +1,361 @@
+[2018-07-02 16:21:25 *9045.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:147
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 147.
+[2018-07-02 16:21:25 $9043.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:21:25 *9046.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:147
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 147.
+[2018-07-02 16:21:25 $9043.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:21:26 *9047.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:147
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 147.
+[2018-07-02 16:21:26 $9043.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:22:37 *9088.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:147
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 147.
+[2018-07-02 16:22:37 $9086.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:23:21 *9097.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:147
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 147.
+[2018-07-02 16:23:21 $9086.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:24:05 *9106.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:147
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 147.
+[2018-07-02 16:24:05 $9086.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:24:49 *9115.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:147
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 147.
+[2018-07-02 16:24:49 $9086.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:27:54 *9156.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined index: /assets/8a1a0946/css/bootstrap in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/ba
+[2018-07-02 16:27:54 $9154.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:27:55 *9158.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined index: /assets/8ca62dcb/jquery in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/w
+[2018-07-02 16:27:55 $9154.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:27:55 *9159.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined index: /assets/8a1a0946/js/bootstrap in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/bac
+[2018-07-02 16:27:55 $9154.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:28:39 *9160.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined index: /assets/8a1a0946/js/bootstrap in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/bac
+[2018-07-02 16:28:39 $9154.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:29 *9206.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:29 $9204.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:29 *9207.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:29 $9204.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:29 *9208.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:29 $9204.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:30 *9209.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:30 $9204.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:45 *9210.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:45 $9204.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:54 *9222.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:54 $9220.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:55 *9223.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:55 $9220.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:55 *9224.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:55 $9220.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:29:55 *9225.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:29:55 $9220.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:30:39 *9226.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:132
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(132): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 132, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:30:39 $9220.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:31:23 *9244.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:31:24 $9220.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:35:46 *9312.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\web\HeadersAlreadySentException: Headers already sent in /root/advanced/backend/web/YiiWebSocket.php on line 130. in /root/advanced/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /root/advanced/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /root/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php(262): yii\web\ErrorHan
+[2018-07-02 16:35:46 $9310.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:01 *9344.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:01 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:09 *9353.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:09 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:09 *9354.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:09 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:09 *9355.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:09 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:09 *9356.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:09 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:53 *9357.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:53 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:53 *9360.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:53 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:37:53 *9361.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:37:53 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:38:37 *9362.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: Undefined variable: url_type in /root/advanced/backend/web/YiiWebSocket.php:140
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(140): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/root/advanced/...', 140, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown in /root/advanced/backend/web/YiiWebSoc
+[2018-07-02 16:38:37 $9342.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:38:56 *9392.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:141
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 141.
+[2018-07-02 16:38:56 $9390.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:39:40 *9393.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:141
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 141.
+[2018-07-02 16:39:40 $9390.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:40:06 *9436.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:141
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 141.
+[2018-07-02 16:40:06 $9434.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:40:51 *9452.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:141
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 141.
+[2018-07-02 16:40:51 $9434.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:42:26 *9481.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:141
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 141.
+[2018-07-02 16:42:26 $9479.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:43:15 *9525.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:141
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 141.
+[2018-07-02 16:43:15 $9523.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-02 16:43:59 *9526.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /root/advanced/backend/web/YiiWebSocket.php:141
+Stack trace:
+#0 /root/advanced/backend/web/YiiWebSocket.php(93): WebSocket::onRequest(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#1 {main}
+  thrown in /root/advanced/backend/web/YiiWebSocket.php on line 141.
+[2018-07-02 16:43:59 $9523.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 13:53:01 *7724.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\web\ForbiddenHttpException: You are not allowed to access this page. in /root/advanced/vendor/yiisoft/yii2-gii/src/Module.php:113
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/base/Controller.php(145): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /root/advanced/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#2 /root/advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->r
+[2018-07-03 13:53:01 $7722.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 13:53:03 *7735.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidRouteException: Unable to resolve the request "index". in /root/advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index', Array)
+#1 /root/advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /root/advanced/backend/web/YiiWebSocket.php(206): yii\base\Application->run()
+
+[2018-07-03 13:53:03 $7722.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 13:53:17 *7760.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidRouteException: Unable to resolve the request "index". in /root/advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index', Array)
+#1 /root/advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /root/advanced/backend/web/YiiWebSocket.php(206): yii\base\Application->run()
+
+[2018-07-03 13:53:17 $7758.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 13:59:52 *7910.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\web\HeadersAlreadySentException: Headers already sent in /root/advanced/backend/web/YiiWebSocket.php on line 102. in /root/advanced/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /root/advanced/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /root/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php(262): yii\web\ErrorHan
+[2018-07-03 13:59:52 $7908.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:10:02 *8162.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\web\ForbiddenHttpException: You are not allowed to access this page. in /root/advanced/vendor/yiisoft/yii2-gii/src/Module.php:113
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/base/Controller.php(145): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /root/advanced/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#2 /root/advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->r
+[2018-07-03 14:10:02 $8160.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:22:28 *8453.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidRouteException: Unable to resolve the request "site1". in /root/advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site1', Array)
+#1 /root/advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /root/advanced/backend/web/YiiWebSocket.php(188): yii\base\Application->run()
+
+[2018-07-03 14:22:28 $8451.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:35:42 *8732.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/swoole-web-server//assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/swoole-we...')
+#2 /root/advanced/backend/w
+[2018-07-03 14:35:42 $8730.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:38:01 *8798.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advance/web//assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/advance/w...')
+#2 /root/advanced/backend/web/Yii
+[2018-07-03 14:38:01 $8796.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:40:37 *8845.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advance/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/advance/w...')
+#2 /root/advanced/backend/web/YiiW
+[2018-07-03 14:40:37 $8843.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:41:04 *8902.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advance/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/advance/w...')
+#2 /root/advanced/backend/web/YiiW
+[2018-07-03 14:41:04 $8900.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:42:25 *8945.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advance/web/backend/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/advance/w...')
+#2 /root/advanced/backend/
+[2018-07-03 14:42:25 $8943.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:43:14 *8966.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advance/backend/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/advance/b...')
+#2 /root/advanced/backend/
+[2018-07-03 14:43:14 $8964.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:43:29 *8998.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advance/backend/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/advance/b...')
+#2 /root/advanced/backend/
+[2018-07-03 14:43:29 $8996.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 14:53:24 *9156.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advance/backend/web/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/backend/web/YiiWebSocket.php:143
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 143, Array)
+#1 /root/advanced/backend/web/YiiWebSocket.php(143): file_get_contents('/root/advance/b...')
+#2 /root/advanced/backend/
+[2018-07-03 14:53:24 $9154.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-03 18:01:45 #9245.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-07-03 18:01:45 #9245.1]	NOTICE	Server is shutdown now.
+[2018-07-03 18:01:45 *9248.0]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-07-03 18:01:45 $9246.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-07-11 10:42:18 *4140.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\web\HeadersAlreadySentException: Headers already sent in /root/advanced/backend/web/YiiWebSocket.php on line 190. in /root/advanced/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /root/advanced/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /root/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php(262): yii\web\ErrorHan
+[2018-07-11 10:42:18 $4138.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-11 10:42:19 *4150.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\web\HeadersAlreadySentException: Headers already sent in /root/advanced/backend/web/YiiWebSocket.php on line 190. in /root/advanced/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /root/advanced/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /root/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php(262): yii\web\ErrorHan
+[2018-07-11 10:42:19 $4138.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0

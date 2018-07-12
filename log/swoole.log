@@ -1,0 +1,143 @@
+[2018-07-12 11:39:21 *5152.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 11:39:21 $5150.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 11:39:31 *5163.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 11:39:31 $5150.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 11:39:47 *5164.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 11:39:47 $5150.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 11:40:48 *5227.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 11:40:48 $5225.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 11:43:08 *5321.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 11:43:08 $5319.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 11:45:30 *5375.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 11:45:30 $5373.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 11:54:59 *5464.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 11:54:59 $5462.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:10:49 *5789.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:10:50 $5787.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:11:43 *5833.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:11:43 $5831.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:13:29 *5916.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:13:29 $5914.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:21:17 *6062.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:21:17 $6060.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:22:05 *6120.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:22:05 $6118.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:31:02 *6334.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:31:02 $6332.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:51:11 *6636.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:51:11 $6631.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 12:53:43 *6710.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 12:53:43 $6708.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:03:05 *6903.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:03:05 $6901.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:04:47 *6972.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidConfigException: Unable to determine the entry script URL. in /root/advanced/vendor/yiisoft/yii2/web/Request.php:814
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Request.php(773): yii\web\Request->getScriptUrl()
+#1 /root/advanced/vendor/yiisoft/yii2/web/Application.php(67): yii\web\Request->getBaseUrl()
+#2 /root/advanced/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#3 /root/advanced/vendor/y
+[2018-07-12 13:04:47 $6970.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:05:31 *6973.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidConfigException: Unable to determine the entry script URL. in /root/advanced/vendor/yiisoft/yii2/web/Request.php:814
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Request.php(773): yii\web\Request->getScriptUrl()
+#1 /root/advanced/vendor/yiisoft/yii2/web/Application.php(67): yii\web\Request->getBaseUrl()
+#2 /root/advanced/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#3 /root/advanced/vendor/y
+[2018-07-12 13:05:31 $6970.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:12:08 *7270.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidConfigException: Unable to determine the entry script URL. in /root/advanced/vendor/yiisoft/yii2/web/Request.php:814
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Request.php(773): yii\web\Request->getScriptUrl()
+#1 /root/advanced/vendor/yiisoft/yii2/web/Application.php(67): yii\web\Request->getBaseUrl()
+#2 /root/advanced/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#3 /root/advanced/vendor/y
+[2018-07-12 13:12:08 $7268.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:14:26 *7345.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidConfigException: Unable to determine the entry script URL. in /root/advanced/vendor/yiisoft/yii2/web/Request.php:814
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Request.php(773): yii\web\Request->getScriptUrl()
+#1 /root/advanced/vendor/yiisoft/yii2/web/Application.php(67): yii\web\Request->getBaseUrl()
+#2 /root/advanced/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#3 /root/advanced/vendor/y
+[2018-07-12 13:14:26 $7343.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:14:30 *7346.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidConfigException: Unable to determine the entry script URL. in /root/advanced/vendor/yiisoft/yii2/web/Request.php:814
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Request.php(773): yii\web\Request->getScriptUrl()
+#1 /root/advanced/vendor/yiisoft/yii2/web/Application.php(67): yii\web\Request->getBaseUrl()
+#2 /root/advanced/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#3 /root/advanced/vendor/y
+[2018-07-12 13:14:30 $7343.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:14:42 *7385.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidConfigException: Unable to determine the entry script URL. in /root/advanced/vendor/yiisoft/yii2/web/Request.php:814
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Request.php(773): yii\web\Request->getScriptUrl()
+#1 /root/advanced/vendor/yiisoft/yii2/web/Application.php(67): yii\web\Request->getBaseUrl()
+#2 /root/advanced/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#3 /root/advanced/vendor/y
+[2018-07-12 13:14:42 $7383.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:15:26 *7386.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\InvalidConfigException: Unable to determine the entry script URL. in /root/advanced/vendor/yiisoft/yii2/web/Request.php:814
+Stack trace:
+#0 /root/advanced/vendor/yiisoft/yii2/web/Request.php(773): yii\web\Request->getScriptUrl()
+#1 /root/advanced/vendor/yiisoft/yii2/web/Application.php(67): yii\web\Request->getBaseUrl()
+#2 /root/advanced/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#3 /root/advanced/vendor/y
+[2018-07-12 13:15:26 $7383.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:16:05 *7426.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:16:05 $7424.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:19:52 *7540.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/frontend/web/root/advanced/frontend/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/YiiWebSocket.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 103, Array)
+#1 /root/advanced/YiiWebSocket.php(103): file_get_contents('/root/advanced/...')
+#2 /root/advanced/YiiWebS
+[2018-07-12 13:19:52 $7538.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:21:34 *7620.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:21:34 $7618.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:21:34 *7621.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:21:34 $7618.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:22:36 *7689.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:22:36 $7687.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:23:44 *7752.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:23:44 $7750.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:25:24 *7819.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:25:24 $7817.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:26:41 *7876.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:26:41 $7874.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:27:13 *7926.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/frontend/web/root/advanced/frontend/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/YiiWebSocket.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 103, Array)
+#1 /root/advanced/YiiWebSocket.php(103): file_get_contents('/root/advanced/...')
+#2 /root/advanced/YiiWebS
+[2018-07-12 13:27:13 $7924.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:30:30 *8045.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:30:30 $8043.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:34:30 *8119.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/frontend/web/root/advanced/frontend/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/YiiWebSocket.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 103, Array)
+#1 /root/advanced/YiiWebSocket.php(103): file_get_contents('/root/advanced/...')
+#2 /root/advanced/YiiWebS
+[2018-07-12 13:34:30 $8117.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:36:20 *8158.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:36:20 $8156.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:39:31 *8211.0]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-07-12 13:39:31 $8209.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=1, signal=0
+[2018-07-12 13:39:53 *8253.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/frontend/web/root/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/YiiWebSocket.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 103, Array)
+#1 /root/advanced/YiiWebSocket.php(103): file_get_contents('/root/advanced/...')
+#2 /root/advanced/YiiWebSocket.php(77): Yii
+[2018-07-12 13:39:53 $8251.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:40:55 *8316.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/frontend/web/root/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/YiiWebSocket.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 103, Array)
+#1 /root/advanced/YiiWebSocket.php(103): file_get_contents('/root/advanced/...')
+#2 /root/advanced/YiiWebSocket.php(77): Yii
+[2018-07-12 13:40:55 $8314.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:42:27 *8389.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/frontend/web/root/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/YiiWebSocket.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 103, Array)
+#1 /root/advanced/YiiWebSocket.php(103): file_get_contents('/root/advanced/...')
+#2 /root/advanced/YiiWebSocket.php(77): Yii
+[2018-07-12 13:42:27 $8387.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-12 13:43:08 *8432.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught yii\base\ErrorException: file_get_contents(/root/advanced/frontend/web/root/assets/8a1a0946/css/bootstrap.css): failed to open stream: No such file or directory in /root/advanced/YiiWebSocket.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/root/advanced/...', 103, Array)
+#1 /root/advanced/YiiWebSocket.php(103): file_get_contents('/root/advanced/...')
+#2 /root/advanced/YiiWebSocket.php(77): Yii
+[2018-07-12 13:43:08 $8430.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
