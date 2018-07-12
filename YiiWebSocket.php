@@ -140,7 +140,7 @@ class YiiWebSocket{
             $_SERVER[strtoupper($k)] = $v;
         }
         $_SERVER['SCRIPT_FILENAME'] = ROOT_DIR;
-        $_SERVER['SCRIPT_NAME']     = '';
+        
         //获取$_GET
         $_GET = [];
         if (isset($request->get)) {
