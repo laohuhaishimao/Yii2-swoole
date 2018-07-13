@@ -99,7 +99,7 @@ private static $server_config = array(
 public function getScriptUrl()
     {
         if ($this->_scriptUrl === null) {
-            $this->_scriptUrl = '';
+            $this->_scriptUrl = '/';
             /*
             $scriptFile = $this->getScriptFile();
             $scriptName = basename($scriptFile);file_put_contents('1111.txt',$_SERVER['SCRIPT_NAME'].'--'.$scriptName);
