@@ -15,8 +15,8 @@ define('ROOT_DIR', '/root/advanced/frontend/web');
 //定义yii2 advanced的根目录，便于引用
 define('YII_ROOT','/root/advanced');
 ```
-**THIS_APP**：默认的yii2 advanced有2个模块（fronted和backend），在这里定义您需要使用的哪个模块。
-**ROOT_DIR**：不像传统的web服务器，使用swoole运行项目的时候没有站点目录这样明确的定义。您可以通过引用，使用机器上任何地方的文件。所以在这里我使用**ROOT_DIR**来定义站点目录，是为了便于清晰的引用相关资源文件。在这里我使用/root/advanced/frontend/web作为站点根目录，我们所有的资源文件（js、css、图片等），都应当放到该目录下或者其子目录下，这样我们才能正常的引用。
+**THIS_APP**：默认的yii2 advanced有2个模块（fronted和backend），在这里定义您需要使用的哪个模块。  
+**ROOT_DIR**：不像传统的web服务器，使用swoole运行项目的时候没有站点目录这样明确的定义。您可以通过引用，使用机器上任何地方的文件。所以在这里我使用    **ROOT_DIR**来定义站点目录，是为了便于清晰的引用相关资源文件。在这里我使用/root/advanced/frontend/web作为站点根目录，我们所有的资源文件（js、css、图片等），都应当放到该目录下或者其子目录下，这样我们才能正常的引用。    
 **YII_ROOT**：由于我们使用yii2作为php的运行框架，而我们的swoole脚本可以放在任何地方。为了便于应用yii2的相关逻辑，所以在这里使用**YII_ROOT**定义了yii2项目的根目录，避免批量的修改代码。这里我使用/root/advanced/作为yii2的根目录，这样才能正常引用相关的逻辑和配置文件。
 **若您的目录结构和我的不一样，请正确配置该参数**
 
