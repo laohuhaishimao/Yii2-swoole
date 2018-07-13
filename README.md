@@ -155,3 +155,62 @@ define('YII_ROOT','/root/advanced');
 ```
 所有对资源文件的引用都是以 **ROOT_DIR** 为根目录进行的
 
+4. 如何使用restful web服务
+您只需要在对应木块添加相关配置即可。例如我以frontend为例，修改配置文件frontend/config/main-local.php
+```
+<?php
+
+$config = [
+    'components' => [
+        'request' => [
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'cookieValidationKey' => 'DFnY23w0oSsHSHImzy2vr2SjCB6cSF_I',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ]
+        ],
+        
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'enableStrictParsing' => true,
+            'showScriptName' => false,
+            'rules' => [
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+            ],
+        ],
+    ],
+];
+
+if (!YII_ENV_TEST) {
+    // configuration adjustments for 'dev' environment
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = [
+        'class' => 'yii\debug\Module',
+    ];
+
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+    ];
+}
+
+return $config;
+```
+增加控制器UserController.php
+```
+<?php
+
+namespace frontend\controllers;
+
+use yii\rest\ActiveController;
+
+/**
+ * UserController implements the CRUD actions for User model.
+ */
+class UserController extends ActiveController
+{
+    public $modelClass = 'frontend\models\User';
+}
+```
+使用gii生成user model到models下。
+最后就可以使用 http://192.168.1.113:9501/user访问到user表
