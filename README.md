@@ -2,6 +2,10 @@
 这是一个在centos7上，集成swoole+yii2 advanced的项目。同时运行了swoole的http服务和socket服务  
 项目环境：php7+swoole2.0+yii2 advanced，在使用此项目前请确保php已经加载了swoole扩展。  
 该项目和一般的yii2 advanced项目是一样的，只是多了2个php文件：YiiWebSocket.php和ServerConfig.php,然后修改了/vendor/yiisoft/yii2/web/Request.php中的一个方法    
+运行项目只需要使用php运行YiiWebSocket.php即可
+```
+php YiiWebSocket.php
+```
 下面为大家说明一下这3个文件  
 
 # YiiWebSocket.php
